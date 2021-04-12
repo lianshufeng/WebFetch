@@ -1,0 +1,10 @@
+{
+  "name": "tencent",
+  "version": "1.0.0",
+  "dependencies": {
+    "WebFetch": "lianshufeng/WebFetch"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}

@@ -26,12 +26,10 @@ exports.handler = async (req, resp, context) => {
         sendResponseTemplate(resp, ret);
     } catch (e) {
         console.error(e)
-        sendResponseTemplate.send(resp, {
+        sendResponseTemplate(resp, {
             status: 500,
             body: e,
             try: ParameterTemplate.request
         })
     }
-
-    sendResponseTemplate(resp, body)
 }

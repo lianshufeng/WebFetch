@@ -1,15 +1,16 @@
-# 👷 `worker-template` Hello World
-
-A template for kick starting a Cloudflare worker project.
-
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+# 👷 `WebFetch-Template`
 
 #### Wrangler
 
 To generate using [wrangler](https://github.com/cloudflare/wrangler)
 
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
+- update wrangler.toml
 
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+````shell
+account_id=""
+````
+
+- publish
+````shell
+wrangler publish
+````

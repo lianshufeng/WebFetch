@@ -1,0 +1,21 @@
+# IDE specific files
+/.idea/
+*.iml
+*.log
+*.gz
+
+# log
+/logs/
+
+# Compiler generated files
+target/
+
+
+# jrebel
+rebel.xml
+
+
+
+.idea
+node_modules
+package-lock.json

@@ -1,0 +1,16 @@
+{
+  "name": "WebFetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cross-fetch": "3.1.4",
+    "encoding": "0.1.13"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

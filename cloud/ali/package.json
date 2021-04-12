@@ -1,0 +1,14 @@
+{
+  "name": "ali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "WebFetch": "lianshufeng/WebFetch"
+  },
+  "author": "",
+  "license": "ISC"
+}

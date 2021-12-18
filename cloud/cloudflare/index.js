@@ -9,7 +9,12 @@ const {nativeFetch, ParameterTemplate} = require("WebFetch")
  */
 buildResponse = async (ret) => {
     return new Response(JSON.stringify(ret), {
-        headers: {"Content-Type": "application/json;charset=UTF-8"}
+        headers: {
+            'Content-Type': 'application/json;charset=UTF-8',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type',
+            'Access-Control-Allow-Methods': 'PUT,POST,GET,DELETE,OPTIONS',
+        },
     })
 }
 
